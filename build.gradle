@@ -33,7 +33,7 @@ ext {
     bintrayName = 'androidutillib'
 
     userOrg = 'jfrog-xuqi-org'
-    publishedGroupId = 'jfrog-xuqi-org'
+    publishedGroupId = 'com.xuqi'
     libraryName = 'androidutillib'
     artifact = 'androidutillib'
 
