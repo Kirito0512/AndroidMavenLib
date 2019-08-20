@@ -7,4 +7,8 @@ public class AndroidUtil {
     public static String getMessage() {
         return "message";
     }
+
+    public static String getNewMessage() {
+        return "new message";
+    }
 }

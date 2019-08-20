@@ -82,7 +82,12 @@ bintray {
     pkg {
         repo = "maven"  //发布到Bintray的那个仓库里，默认账户有四个库，我们这里上传到maven库
         // 一定要写
-        userOrg = rootProject.publishedGroupId
+        // userOrg – an optional organization name when the repo belongs to one of the user's orgs.
+        // If not added will use 'BINTRAY_USER' by default
+        // 我的maven仓库现在位于自己的org下，如果这里不写
+        // 会报错 [message:Repo 'maven' was not found] 找了很久都不知道为啥
+        // 最后跟另一个自己的成功的demo对比，才发现少了这个
+        userOrg = rootProject.userOrg
         name = rootProject.bintrayName
         desc = rootProject.libraryDescription
         websiteUrl = rootProject.siteUrl

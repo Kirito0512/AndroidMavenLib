@@ -32,6 +32,7 @@ ext {
     bintrayRepo = 'maven'
     bintrayName = 'androidutillib'
 
+    userOrg = 'jfrog-xuqi-org'
     publishedGroupId = 'jfrog-xuqi-org'
     libraryName = 'androidutillib'
     artifact = 'androidutillib'
@@ -41,7 +42,7 @@ ext {
     siteUrl = 'https://github.com/Kirito0512/AndroidMavenLib'
     gitUrl = 'https://github.com/Kirito0512/AndroidMavenLib.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
     developerId = 'kirito0512'
     developerName = 'kirito0512'
