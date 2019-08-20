@@ -21,9 +21,9 @@ allprojects {
         google()
         jcenter()
 
-        maven {
-            url 'https://dl.bintray.com/jfrog-xuqi-org/maven'
-        }
+//        maven {
+//            url 'https://dl.bintray.com/jfrog-xuqi-org/maven'
+//        }
     }
 }
 
