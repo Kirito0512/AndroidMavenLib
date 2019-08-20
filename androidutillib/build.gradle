@@ -35,6 +35,9 @@ dependencies {
 }
 
 //upload maven to bintray
+// 上传到bintray的aar文件，引用时的名称为
+// publishedGroupId:artifact:libraryVersion
+// 这三部分都能在下面的代码里找到
 
 group = rootProject.publishedGroupId
 version = rootProject.libraryVersion

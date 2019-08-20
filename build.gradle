@@ -45,7 +45,7 @@ ext {
     siteUrl = 'https://github.com/Kirito0512/AndroidMavenLib'
     gitUrl = 'https://github.com/Kirito0512/AndroidMavenLib.git'
 
-    libraryVersion = '1.0.2'
+    libraryVersion = '1.0.3'
 
     developerId = 'kirito0512'
     developerName = 'kirito0512'
